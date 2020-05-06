@@ -2,10 +2,10 @@
 An Interpreted Multi-Threaded Programming Language
 
 To create the Lobster Compiler on Mac or Linux, go into the directory containing the project and type in the following command:
+
 g++ -std=c++11 -o LobsterC CodeGenerator.cpp lexicalAnalyzer.cpp
 
 To create the Lobster Virtual Machine on Mac or Linux, go into the directory containing the project and type in the following command:
-
 
 g++ -std=c++11 -o Lobster runTimeObject.cpp
 
